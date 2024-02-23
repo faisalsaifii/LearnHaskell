@@ -4,8 +4,6 @@ sidebar_position: 1
 
 # Introduction
 
-## In this part
-
 Getting started with Haskell:
 
 - What is Haskell?

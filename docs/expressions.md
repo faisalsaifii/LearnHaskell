@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Expressions
 
-- Programs structured into modules (files)
+- Programs are structured into modules (files)
 - Modules contain declarations (statements).
 - The most important form of declarations are bindings for new
 constants and functions.
