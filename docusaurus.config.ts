@@ -34,13 +34,15 @@ const config: Config = {
 					sidebarPath: './sidebars.ts',
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					editUrl: 'https://github.com/faisalsaifii/learnhaskell',
+					editUrl:
+						'https://github.com/faisalsaifii/LearnHaskell/tree/main',
 				},
 				blog: {
 					showReadingTime: true,
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					editUrl: 'https://github.com/faisalsaifii/learnhaskell',
+					editUrl:
+						'https://github.com/faisalsaifii/LearnHaskell/tree/main',
 				},
 				theme: {
 					customCss: './src/css/custom.css',
@@ -120,6 +122,7 @@ const config: Config = {
 		prism: {
 			theme: prismThemes.github,
 			darkTheme: prismThemes.dracula,
+			additionalLanguages: ['haskell'],
 		},
 	} satisfies Preset.ThemeConfig,
 };
